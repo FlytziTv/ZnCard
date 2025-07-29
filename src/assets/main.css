@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('/font/Satoshi-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('/font/Satoshi-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('/font/Satoshi-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('/font/Satoshi-Black.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-BlackItalic';
+  src: url('/font/Satoshi-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+
+:root {
+  --primary-color-text: #FFFFFF;
+  --primary-color-background: #0E0E0E;
+  --primary-color-mini-card: #141414;
+
+  --secondary-color: #232323;
+  --secondary-color-description: #999999;
+
+  --color1-tag : rgba(223, 18, 46, 0.2);
+  --color2-tag : rgba(223, 18, 46, 1);
+
+  --linear-white: linear-gradient(45deg, #FDFDFD 0%, #FFF9E9 50%, #FDFDFD 100%);
+
+  --linear-zn-background: linear-gradient(135deg, #84051D 0%, #DF122E 50%, #84051D 100%);
+  --color-zn-background: #DF122E;
+
+  --social-mail-color: #818181;
+  --social-spotify-color: #1ED760;
+  --social-linkedin-color: #113C95;
+  --social-dribbble-color: #F16798;
+  --social-behance-color: #005CFF;
+  --social-youtube-color: #FF0000;
+  --social-instagram-color: #E0336B;
+  --social-facebook-color: #0866FF;
+  --social-tiktok-color: #000000;
+  --social-discord-color: #5865F2;
+  --social-twitter-color: #1D9BF0;
+  --social-telegram-color: #29A9EB;
+  --social-whatsapp-color: #25D366;
+  --social-gitlab-color: #E24328;
+  --social-github-color: #000000;
+  --social-twitch-color: #AA43FF;
+  --social-snapchat-color: #FCFC02;
+  --social-soundcloud-color: #FF4601;
+  --social-paypal-color: #003084;
+
+  --padding-8px: 8px;
+
+  --color-html : #e44b23;
+  --color-css : #563d7c;
+  --color-javascript : #f1e05a;
+  --color-vue : #41b883;
+  --color-python : #3572A5;
+  --color-lua : #000080;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--primary-color-text);
+  background-image: url('/background/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Outfit','Montserrat', sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
