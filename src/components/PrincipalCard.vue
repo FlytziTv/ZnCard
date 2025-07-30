@@ -53,14 +53,14 @@
         <h4 class="formation-title">{{ $t('titre_formations') }}</h4>
         <div class="stud-container">
           <StudCard
-            StudImage="../../icon-f/ynov.png"
+            StudImage="./icon-f/ynov.png"
             StudImgName="Ynov Logo"
             :TitleStud="$t('ynov_titre')"
             :NameStud="$t('ynov_description')"
             :DateStud="$t('ynov_date')"
           />
           <StudCard
-            StudImage="../../icon-f/simone_weil.png"
+            StudImage="./icon-f/simone_weil.png"
             StudImgName="Simone Weil Logo"
             :TitleStud="$t('simone_weil_titre')"
             :NameStud="$t('simone_weil_description')"
@@ -72,7 +72,7 @@
         <h4 class="formation-title">{{ $t('titre_experience') }}</h4>
         <div class="works-container">
           <WorkCard
-            workImage="../../icon-f/new_mat.png"
+            workImage="./icon-f/new_mat.png"
             workImgName="New Mat Logo"
             :TitleWorks="$t('new_mat_titre')"
             :NameWorks="$t('new_mat_nom')"
@@ -86,7 +86,7 @@
             ]"
           />
           <WorkCard
-            workImage="../../icon-f/eiffage.png"
+            workImage="./icon-f/eiffage.png"
             workImgName="Eiffage Logo"
             :TitleWorks="$t('eiffage_titre')"
             :NameWorks="$t('eiffage_nom')"
@@ -100,7 +100,7 @@
             ]"
           />
           <WorkCard
-            workImage="../../icon-f/eiffage.png"
+            workImage="./icon-f/eiffage.png"
             workImgName="Eiffage Logo"
             :TitleWorks="$t('eiffage_titre')"
             :NameWorks="$t('eiffage_nom')"
@@ -114,7 +114,7 @@
             ]"
           />
           <WorkCard
-            workImage="../../icon-f/eiffage.png"
+            workImage="./icon-f/eiffage.png"
             workImgName="Eiffage Logo"
             :TitleWorks="$t('eiffage_titre')"
             :NameWorks="$t('eiffage_nom')"
@@ -128,7 +128,7 @@
             ]"
           />
           <WorkCard
-            workImage="../../icon-f/eiffage.png"
+            workImage="./icon-f/eiffage.png"
             workImgName="Eiffage Logo"
             :TitleWorks="$t('eiffage_titre')"
             :NameWorks="$t('eiffage_nom')"
@@ -194,43 +194,43 @@
           <SkillCard
             skillName="Html 5"
             :skillCategory="$t('Html_categorie')"
-            skillImage="../../icon-ll/html5.svg"
+            skillImage="./icon-ll/html5.svg"
             skillImgName="Html 5 Logo"
           />
           <SkillCard
             skillName="Css 3"
             :skillCategory="$t('Css_categorie')"
-            skillImage="../../icon-ll/css3.svg"
+            skillImage="./icon-ll/css3.svg"
             skillImgName="Css 3 Logo"
           />
           <SkillCard
             skillName="JavaScript"
             :skillCategory="$t('JavaScript_categorie')"
-            skillImage="../../icon-ll/javascript.svg"
+            skillImage="./icon-ll/javascript.svg"
             skillImgName="JavaScript Logo"
           />
           <SkillCard
             skillName="Vue.js"
             :skillCategory="$t('Vuejs_categorie')"
-            skillImage="../../icon-ll/vuejs.svg"
+            skillImage="./icon-ll/vuejs.svg"
             skillImgName="Vue.js Logo"
           />
           <SkillCard
             skillName="Node.js"
             :skillCategory="$t('Nodejs_categorie')"
-            skillImage="../../icon-ll/nodejs.svg"
+            skillImage="./icon-ll/nodejs.svg"
             skillImgName="Node.js Logo"
           />
           <SkillCard
             skillName="Python"
             :skillCategory="$t('Python_categorie')"
-            skillImage="../../icon-ll/python.svg"
+            skillImage="./icon-ll/python.svg"
             skillImgName="Python Logo"
           />
           <SkillCard
             skillName="Mysql"
             :skillCategory="$t('Mysql_categorie')"
-            skillImage="../../icon-ll/mysql.svg"
+            skillImage="./icon-ll/mysql.svg"
             skillImgName="Mysql Logo"
           />
         </div>
@@ -242,37 +242,37 @@
           <SkillCard
             skillName="Figma"
             :skillCategory="$t('Figma_categorie')"
-            skillImage="../../icon-ll/figma.svg"
+            skillImage="./icon-ll/figma.svg"
             skillImgName="Figma Logo"
           />
           <SkillCard
             skillName="Solidworks"
             :skillCategory="$t('Solidworks_categorie')"
-            skillImage="../../icon-ll/dassaultsystemes.svg"
+            skillImage="./icon-ll/dassaultsystemes.svg"
             skillImgName="Solidworks Logo"
           />
           <SkillCard
             skillName="AutoCAD"
             :skillCategory="$t('AutoCAD_categorie')"
-            skillImage="../../icon-ll/autocad.svg"
+            skillImage="./icon-ll/autocad.svg"
             skillImgName="AutoCAD Logo"
           />
           <SkillCard
             skillName="Blender"
             :skillCategory="$t('Blender_categorie')"
-            skillImage="../../icon-ll/blender.svg"
+            skillImage="./icon-ll/blender.svg"
             skillImgName="Blender Logo"
           />
           <SkillCard
             skillName="Git"
             :skillCategory="$t('Git_categorie')"
-            skillImage="../../icon-ll/git.svg"
+            skillImage="./icon-ll/git.svg"
             skillImgName="Git Logo"
           />
           <SkillCard
             skillName="Git Extension"
             :skillCategory="$t('Git_Extension_categorie')"
-            skillImage="../../icon-ll/gitextensions.svg"
+            skillImage="./icon-ll/gitextensions.svg"
             skillImgName="Git Extension Logo"
           />
         </div>

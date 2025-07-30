@@ -10,9 +10,9 @@
       </div>
       <div class="action-son">
         <a href="#" @click.prevent="prevSong"><img src="/icon-all/befort.svg" alt=""></a>
-        <a href="#" @click.prevent="togglePlay"><img :src="isPlaying ? '/icon-all/play.svg' : '/icon-all/pause.svg'" alt=""></a>
+        <a href="#" @click.prevent="togglePlay"><img :src="isPlaying ? './icon-all/play.svg' : './icon-all/pause.svg'" alt=""></a>
         <a href="#" @click.prevent="nextSong"><img src="/icon-all/skip.svg" alt=""></a>
-        <a href="#" @click.prevent="mute"><img :src="isMuted ? '/icon-all/volume-mute.svg' : '/icon-all/volume.svg'" alt=""></a>
+        <a href="#" @click.prevent="mute"><img :src="isMuted ? './icon-all/volume-mute.svg' : './icon-all/volume.svg'" alt=""></a>
       </div>
       <div class="status-son">
         <div class="progress-track" @click="seek($event)">
@@ -147,15 +147,15 @@ const songs = [
     title: 'Océan',
     artist: 'So La Lune',
     album: 'Wilma',
-    image: '/music/Océan.png',
-    audio: '/music/So La Lune - Océan.mp4',
+    image: './music/Océan.png',
+    audio: './music/So La Lune - Océan.mp4',
   },
   {
     title: 'Tate McRae',
     artist: 'Just Keep Watching',
     album: 'F1 The Album',
-    image: '/music/Just Keep Watching.png',
-    audio: '/music/Tate McRae - Just Keep Watching.mp4',
+    image: './music/Just Keep Watching.png',
+    audio: './music/Tate McRae - Just Keep Watching.mp4',
   },
   // Ajoute d'autres sons ici
 ];

@@ -2,7 +2,7 @@
   <div class="card-profil">
     <div class="top-menu">
       <a href="#" @click.prevent="$emit('menu-click')">
-        <img :src="menuOuvert ? '/icon-all/X.svg' : '/icon-all/menu.svg'" alt="">
+        <img :src="menuOuvert ? './icon-all/X.svg' : './icon-all/menu.svg'" alt="">
       </a>
       <div class="banner-profil"></div>
     </div>
@@ -21,66 +21,66 @@
           </div>
         </div>
         <div class="tag-profil">
-          <TagUsers imageSrc="/icon-all/loc.svg" titleImg="" :text="$t('position')" />
+          <TagUsers imageSrc="./icon-all/loc.svg" titleImg="" :text="$t('position')" />
           <hr>
-          <TagUsers imageSrc="/icon-all/pc.svg" titleImg="" :text="$t('metier')" />
+          <TagUsers imageSrc="./icon-all/pc.svg" titleImg="" :text="$t('metier')" />
         </div>
         <p>{{ $t('description_profile') }}</p>
 
         <div class="social-group">
           <IconSocial
             linkSrc="paypal.me/aalexisin"
-            imageSrc="/icon-social/paypal.svg"
+            imageSrc="./icon-social/paypal.svg"
             titleImg="paypal"
           />
           <IconSocial
             linkSrc="https://www.linkedin.com/in/alexis-inacio/"
-            imageSrc="/icon-social/linkedin.svg"
+            imageSrc="./icon-social/linkedin.svg"
             titleImg="linkedin"
           />
           <IconSocial
             linkSrc="mailto:alexis.inacio78@gmail.com"
-            imageSrc="/icon-social/envelope.svg"
+            imageSrc="./icon-social/envelope.svg"
             titleImg="mail"
           />
           <IconSocial
             linkSrc="mailto:alexis.inacio78@gmail.com"
-            imageSrc="/icon-social/envelope.svg"
+            imageSrc="./icon-social/envelope.svg"
             titleImg="mail"
           />
           <IconSocial
             linkSrc="https://www.tiktok.com/@aalexis.in"
-            imageSrc="/icon-social/tiktok.svg"
+            imageSrc="./icon-social/tiktok.svg"
             titleImg="tiktok"
           />
           <IconSocial
             linkSrc="https://www.youtube.com/@Flytzi_"
-            imageSrc="/icon-social/youtube.svg"
+            imageSrc="./icon-social/youtube.svg"
             titleImg="youtube"
           />
           <IconSocial
             linkSrc="https://www.twitch.tv/flytzitv"
-            imageSrc="/icon-social/twitch.svg"
+            imageSrc="./icon-social/twitch.svg"
             titleImg="twitch"
           />
           <IconSocial
             linkSrc="https://discord.gg/Mft5EbRBEr"
-            imageSrc="/icon-social/discord.svg"
+            imageSrc="./icon-social/discord.svg"
             titleImg="discord"
           />
           <IconSocial
             linkSrc="https://github.com/FlytziTv"
-            imageSrc="/icon-social/github.svg"
+            imageSrc="./icon-social/github.svg"
             titleImg="github"
           />
           <IconSocial
             linkSrc="https://www.behance.net/Flytzi"
-            imageSrc="/icon-social/behance.svg"
+            imageSrc="./icon-social/behance.svg"
             titleImg="behance"
           />
           <IconSocial
             linkSrc="https://open.spotify.com/user/c5wpio54wdje7bnxbeo9kxzcp"
-            imageSrc="/icon-social/spotify.svg"
+            imageSrc="./icon-social/spotify.svg"
             titleImg="spotify"
           />
         </div>
