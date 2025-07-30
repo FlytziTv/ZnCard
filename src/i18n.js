@@ -18,6 +18,9 @@ const messages = {
     nav_Projets: "Projets",
     nav_Competences: "Compétences",
 
+    about_name: "Alexis DE JESUS",
+    mon_cv : "Mon CV",
+
     titre_formations: "Mes formations",
     titre_experience: "Mes expériences professionnelles",
     titre_projets: "Mes projets personnels",
@@ -36,15 +39,15 @@ const messages = {
 
     titre_projets_znfolio: "Mon Portfolio",
     description_projets_znfolio: "Mon portfolio personnel réalisé avec Vue.js (site actuel).",
-    date_projets_znfolio: "Créé le 29 Juillet 2025",
+    date_projets_znfolio: "Créé le 29 Juil. 2025",
 
     titre_projets_zn_nui: "Nui FiveM",
-    description_projets_zn_nui: "Multiple script interfaces FiveM, (interface fini, dev en cours).",
+    description_projets_zn_nui: "Multiple script interfaces FiveM.",
     date_projets_zn_nui: "Créé le 21 Juin 2025",
 
     titre_projets_discordbot: "Discord Bot",
     description_projets_discordbot: "Bots Discord pour la protection du serveur Zenos Clans.",
-    date_projets_discordbot: "Mis à jour le 23 juin 2025",
+    date_projets_discordbot: "Mis à jour le 23 Juin 2025",
 
 
     // Formations
@@ -134,6 +137,9 @@ const messages = {
     nav_Projets: "Projects",
     nav_Competences: "Skills",
 
+    about_name: "Alexis DE JESUS",
+    mon_cv: "My CV",
+
     titre_formations: "My education",
     titre_experience: "My professional experience",
     titre_projets: "My personal projects",
@@ -149,6 +155,19 @@ const messages = {
     titre_projets_test_2: "Test project title",
     description_projets_test_2: "Test project description",
     date_projets_test_2: "Updated on April 18",
+
+    titre_projets_znfolio: "My Portfolio",
+    description_projets_znfolio: "My personal portfolio built with Vue.js (current site).",
+    date_projets_znfolio: "Created on Jul 29, 2025",
+
+    titre_projets_zn_nui: "FiveM NUI",
+    description_projets_zn_nui: "Multiple FiveM script interfaces.",
+    date_projets_zn_nui: "Created on Jun 21, 2025",
+
+    titre_projets_discordbot: "Discord Bot",
+    description_projets_discordbot: "Discord bots for protecting the Zenos Clans server.",
+    date_projets_discordbot: "Updated on Jun 23, 2025",
+
 
     // Education
     ynov_titre: "Paris YNOV Campus",
@@ -236,6 +255,9 @@ const messages = {
     nav_Projets: "Projetos",
     nav_Competences: "Competências",
 
+    about_name: "Alexis DE JESUS",
+    mon_cv: "O meu CV",
+
     titre_formations: "A minha formação",
     titre_experience: "A minha experiência profissional",
     titre_projets: "Os meus projetos pessoais",
@@ -251,6 +273,19 @@ const messages = {
     titre_projets_test_2: "Título de projeto teste",
     description_projets_test_2: "Descrição do projeto teste",
     date_projets_test_2: "Atualizado a 18 de abril",
+
+    titre_projets_znfolio: "O meu Portfólio",
+    description_projets_znfolio: "O meu portfólio pessoal feito com Vue.js (site atual).",
+    date_projets_znfolio: "Criado a 29 Jul 2025",
+
+    titre_projets_zn_nui: "NUI FiveM",
+    description_projets_zn_nui: "Múltiplas interfaces de scripts FiveM.",
+    date_projets_zn_nui: "Criado a 21 Jun 2025",
+
+    titre_projets_discordbot: "Bot Discord",
+    description_projets_discordbot: "Bots Discord para proteger o servidor Zenos Clans.",
+    date_projets_discordbot: "Atualizado a 23 Jun 2025",
+
 
     // Formação
     ynov_titre: "Campus Paris YNOV",

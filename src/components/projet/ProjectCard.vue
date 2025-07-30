@@ -71,12 +71,16 @@
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--primary-color-mini-card);
   border-radius: 8px;
   padding: var(--padding-8px);
   border: 1px solid var(--secondary-color);
   width: 406px;
 }
+
 
 </style>
 

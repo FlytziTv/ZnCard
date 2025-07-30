@@ -34,7 +34,18 @@
     </nav>
 
     <div v-if="activePage === 'about'" class="about-pages">
-      <h4>Trop la Flemme</h4>
+      <div class="about-card">
+        <div class="about-banner"></div>
+        <div class="about-me">
+          <img src="/card/pp_alexis.png" alt="">
+          <div class="text-about">
+            <h4>{{ $t('about_name') }}</h4>
+            <a class="about-cv" href="/public/cv/cv_alexis_dejesus_07.pdf" target="_blank">
+              {{ $t('mon_cv') }}
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div v-if="activePage === 'formations'" class="formation-pages">
@@ -274,13 +285,65 @@
 
 <style>
 
+.about-cv {
+  font-family: 'Satoshi-Medium';
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--secondary-color-description);
+  text-decoration: none;
+  padding: 2px 8px;
+  border-radius: 20px;
+  border: 1px solid var(--secondary-color-description);
+  cursor: pointer;
+}
+
+.about-me img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid var(--primary-color-background);
+  top: 60px;
+  left: 40px;
+  position: absolute;
+}
+
+.about-banner {
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/public/card/banner-about.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
 .about-pages h4 {
-  font-family: 'Satoshi-Bold';
-  font-weight: 700;
+  font-family: 'Satoshi-BlackItalic';
+  font-weight: 900;
   color: var(--primary-color-text);
   font-size: 24px;
-  padding-bottom: 20px;
 }
+
+.text-about {
+  display: flex;
+  height: 52px;
+  padding-left: 200px;
+  align-items: center;
+  gap: 10px;
+}
+
 
 .about-pages {
   display: flex;
