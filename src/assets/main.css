@@ -44,6 +44,8 @@
   --primary-color-background: #0E0E0E;
   --primary-color-mini-card: #141414;
 
+  --color-nav: rgba(2, 2, 2, 0.6);
+
   --secondary-color: #232323;
   --secondary-color-description: #999999;
 
@@ -83,6 +85,7 @@
   --color-vue : #41b883;
   --color-python : #3572A5;
   --color-lua : #000080;
+  --color-nodejs : #539E43;
 }
 
 
@@ -105,8 +108,8 @@ body {
   transition:
     color 0.5s,
     background-color 0.5s;
-  line-height: 1.6;
-  font-family: 'Outfit','Montserrat', sans-serif;
+  /* line-height: 1.6; */
+  font-family: 'Satoshi-Medium';
   font-size: 16px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

@@ -3,6 +3,11 @@ import { createI18n } from 'vue-i18n';
 const messages = {
   fr: {
     welcome: "Bienvenue sur mon site",
+
+    francais: "Français",
+    anglais: "Anglais",
+    portugais: "Portugais",
+
     language: "Changer de langue",
     position: "Paris",
     metier: "Développeur Informatique",
@@ -28,6 +33,18 @@ const messages = {
     titre_projets_test_2: "Titre projet test",
     description_projets_test_2: "Description du projet test",
     date_projets_test_2: "Mis à jour le 18 avril",
+
+    titre_projets_znfolio: "Mon Portfolio",
+    description_projets_znfolio: "Mon portfolio personnel réalisé avec Vue.js (site actuel).",
+    date_projets_znfolio: "Créé le 29 Juillet 2025",
+
+    titre_projets_zn_nui: "Nui FiveM",
+    description_projets_zn_nui: "Multiple script interfaces FiveM, (interface fini, dev en cours).",
+    date_projets_zn_nui: "Créé le 21 Juin 2025",
+
+    titre_projets_discordbot: "Discord Bot",
+    description_projets_discordbot: "Bots Discord pour la protection du serveur Zenos Clans.",
+    date_projets_discordbot: "Mis à jour le 23 juin 2025",
 
 
     // Formations
@@ -102,6 +119,11 @@ const messages = {
   },
   en: {
     welcome: "Welcome to my site",
+
+    francais: "French",
+    anglais: "English",
+    portugais: "Portuguese",
+
     language: "Change language",
     position: "Paris",
     metier: "IT Developer",
@@ -199,6 +221,11 @@ const messages = {
   },
   pt: {
     welcome: "Bem-vindo ao meu site",
+
+    francais: "Francês",
+    anglais: "Inglês",
+    portugais: "Português",
+
     language: "Mudar idioma",
     position: "Paris",
     metier: "Desenvolvedor Informático",

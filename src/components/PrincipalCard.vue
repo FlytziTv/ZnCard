@@ -138,27 +138,39 @@
       <h4 class="projets-title">{{ $t('titre_projets') }}</h4>
       <div class="projects-container">
         <ProjectCard
-          link="https://github.com/FlytziTv"
-          :Titre ="$t('titre_projets_test_1')"
+          link="https://github.com/FlytziTv/ZnCard"
+          :Titre ="$t('titre_projets_znfolio')"
           :visibilité ="$t('visibilité_projects1')"
-          :description ="$t('description_projets_test_1')"
-          :date_maj = "$t('date_projets_test_1')"
+          :description ="$t('description_projets_znfolio')"
+          :date_maj = "$t('date_projets_znfolio')"
           :tags="[
-            { lang: 'HTML' },
+            { lang: 'VUEJS' },
             { lang: 'CSS' },
-            { lang: 'JAVASCRIPT' }
+            { lang: 'JAVASCRIPT' },
+            { lang: 'NODEJS' }
           ]"
         />
         <ProjectCard
-          link="https://github.com/FlytziTv"
-          :Titre ="$t('titre_projets_test_2')"
-          :visibilité ="$t('visibilité_projects1')"
-          :description ="$t('description_projets_test_2')"
-          :date_maj = "$t('date_projets_test_2')"
+          :Titre ="$t('titre_projets_zn_nui')"
+          :visibilité ="$t('visibilité_projects2')"
+          :description ="$t('description_projets_zn_nui')"
+          :date_maj = "$t('date_projets_zn_nui')"
           :tags="[
-            { lang: 'HTML' },
+            { lang: 'VUEJS' },
             { lang: 'CSS' },
-            { lang: 'JAVASCRIPT' }
+            { lang: 'JAVASCRIPT' },
+            { lang: 'LUA' }
+
+          ]"
+        />
+        <ProjectCard
+          :Titre ="$t('titre_projets_discordbot')"
+          :visibilité ="$t('visibilité_projects2')"
+          :description ="$t('description_projets_discordbot')"
+          :date_maj = "$t('date_projets_discordbot')"
+          :tags="[
+            { lang: 'JAVASCRIPT' },
+            { lang: 'NODEJS' }
           ]"
         />
       </div>

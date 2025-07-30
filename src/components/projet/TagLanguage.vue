@@ -49,6 +49,10 @@
   background-color: var(--color-lua);
 }
 
+.nodejs-color {
+  background-color: var(--color-nodejs);
+}
+
 </style>
 
 <script>
@@ -66,9 +70,10 @@ export default {
         html: 'html-color',
         css: 'css-color',
         javascript: 'javascript-color',
-        vue: 'vue-color',
+        vuejs: 'vue-color',
         python: 'python-color',
-        lua: 'lua-color'
+        lua: 'lua-color',
+        nodejs: 'nodejs-color'
       };
       // Normalise le nom pour éviter les soucis de casse
       return map[this.language.toLowerCase()] || '';
