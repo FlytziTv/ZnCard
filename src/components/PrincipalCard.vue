@@ -40,7 +40,7 @@
           <img src="/card/pp_alexis.png" alt="">
           <div class="text-about">
             <h4>{{ $t('about_name') }}</h4>
-            <a class="about-cv" href="/public/cv/cv_alexis_dejesus_07.pdf" target="_blank">
+            <a class="about-cv" href="/cv/cv_alexis_dejesus_07.pdf" target="_blank">
               {{ $t('mon_cv') }}
             </a>
           </div>
@@ -314,7 +314,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(/public/card/banner-about.png);
+  background: url(/card/banner-about.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
